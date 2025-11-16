@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ML Models y Checkpoints (ARCHIVOS GRANDES)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+mlruns/
+models/
+
+# Dataset (ARCHIVOS GRANDES)
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MLflow
+mlruns/
+
+# Otros
+results/
+uploads/
+*.zip
+*.tar
+*.gz
+*.rar
+.claude/
